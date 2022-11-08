@@ -1,0 +1,10 @@
+temp = int(input("please enter the temerature: "))
+if temp < 32:
+    print("wear a coat!")
+elif temp < 60:
+    print("wear a sweater")
+elif temp < 80:
+    print("a tshirt is fine")
+else:
+    print("wear flip flop!")
+    
